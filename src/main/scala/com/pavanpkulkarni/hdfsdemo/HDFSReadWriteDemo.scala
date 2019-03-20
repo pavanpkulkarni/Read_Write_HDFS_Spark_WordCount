@@ -10,7 +10,7 @@ object HDFSReadWriteDemo {
     val spark = SparkSession
                 .builder()
                 .master("local")
-                .appName("hdfs-to-s3-test")
+                .appName("hdfs-test")
                 .getOrCreate()
 
 
